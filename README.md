@@ -1,1 +1,1 @@
-# quantumImageClassification
+# Project Name - Quantum Image Classification
