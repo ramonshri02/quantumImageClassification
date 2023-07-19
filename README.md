@@ -23,9 +23,9 @@ The repository consists of the following main components:
 
 ## Comparision between Quantum and Classical SVM
 ### Performance Considerations:
-1. Computational Complexity: The Quantum Kernel-based approach involves quantum circuit simulations, which can be computationally intensive and may scale exponentially with the number of qubits and samples. On the other hand, the traditional SVM classifier with PCA has polynomial time complexity and is generally more computationally efficient.
-2. Hardware Requirements: The Quantum Kernel-based approach requires access to quantum computing resources or simulators, which may have limitations in terms of qubit availability, noise, and runtime. The traditional SVM classifier with PCA can be implemented on conventional computing hardware.
-3. Scalability: As the dataset size increases, the Quantum Kernel-based approach may face challenges in terms of memory and computation. The traditional SVM classifier with PCA can handle larger datasets more efficiently.
+1. **Computational Complexity:** The Quantum Kernel-based approach involves quantum circuit simulations, which can be computationally intensive and may scale exponentially with the number of qubits and samples. On the other hand, the traditional SVM classifier with PCA has polynomial time complexity and is generally more computationally efficient.
+2. **Hardware Requirements:** The Quantum Kernel-based approach requires access to quantum computing resources or simulators, which may have limitations in terms of qubit availability, noise, and runtime. The traditional SVM classifier with PCA can be implemented on conventional computing hardware.
+3. **Scalability:** As the dataset size increases, the Quantum Kernel-based approach may face challenges in terms of memory and computation. The traditional SVM classifier with PCA can handle larger datasets more efficiently.
 
 ### Accuracy Comparison:
 1. **Label-specific Accuracy:** The Quantum Kernel-based approach provided accuracy scores for each label against the rest. This allows for a more detailed analysis of the performance for individual classes. In contrast, the traditional SVM classifier with PCA calculates the overall accuracy of the classifier on the test set without considering label-specific accuracies.
