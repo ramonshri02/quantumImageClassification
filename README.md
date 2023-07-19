@@ -19,4 +19,4 @@ The repository consists of the following main components:
 * Kernel Evaluation and Model Fitting: The quantum kernel is evaluated on the training samples, and the SVC model is fitted to the resulting kernel matrix and binary labels.
 * Validation and Prediction: The quantum kernel is evaluated on the validation and test samples to compute accuracy scores and predict probabilities for the specific label.
 * Results and Analysis: The original validation labels, modified binary labels, accuracy of discrimination, and predicted probabilities are printed and stored for further analysis.
-Visualization: Lastly, the code includes a visualization step where it generates a quantum circuit for encoding a single sample using the ZZFeatureMap object. The circuit is then decomposed and visualized using Matplotlib.
+5. Visualization: Lastly, the code includes a visualization step where it generates a quantum circuit for encoding a single sample using the ZZFeatureMap object. The circuit is then decomposed and visualized using Matplotlib.
