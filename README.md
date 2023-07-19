@@ -1,4 +1,4 @@
-# Project Name - Quantum Image Classification
+# Project Name - Quantum Machine Learning
 
 ## Code Method Report
 ### Overview
