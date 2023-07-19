@@ -7,10 +7,10 @@ This repository contains code for a quantum kernel-based classification method u
 ### Code Structure
 The repository consists of the following main components:
 
-Imports: The necessary libraries and modules are imported at the beginning of the code. These include scikit-learn, TensorFlow, Qiskit, and other relevant dependencies.
-Loading and Preprocessing Data: The code loads the MNIST dataset using TensorFlow's mnist.load_data() function. It splits the data into training and testing sets and prints the shape of the loaded data for inspection. Additionally, it selects a subset of samples from the training and testing sets for faster processing.
-Preprocessing Steps: Several preprocessing steps are applied to the data before training the classifier. These steps include standardization, dimensionality reduction using PCA, and normalization using min-max scaling. The preprocessing ensures that the data is in an appropriate format and range for subsequent analysis.
-Quantum Kernel-based Classification: The core of the code is the quantum kernel-based classification process. It involves the following steps:
+1. Imports: The necessary libraries and modules are imported at the beginning of the code. These include scikit-learn, TensorFlow, Qiskit, and other relevant dependencies.
+2. Loading and Preprocessing Data: The code loads the MNIST dataset using TensorFlow's mnist.load_data() function. It splits the data into training and testing sets and prints the shape of the loaded data for inspection. Additionally, it selects a subset of samples from the training and testing sets for faster processing.
+3. Preprocessing Steps: Several preprocessing steps are applied to the data before training the classifier. These steps include standardization, dimensionality reduction using PCA, and normalization using min-max scaling. The preprocessing ensures that the data is in an appropriate format and range for subsequent analysis.
+4. Quantum Kernel-based Classification: The core of the code is the quantum kernel-based classification process. It involves the following steps:
 *Iterating over each label in the dataset: The code loops through a predefined set of labels and performs classification for each label against the rest.
 * Binary Label Conversion: It converts the original labels into binary labels, where the specific label is assigned a value of 1, and the rest are assigned 0.
 * Quantum Feature Map Initialization: The code initializes a quantum feature map object (ZZFeatureMap) from Qiskit. The feature map is defined with parameters such as the feature dimension and entanglement pattern.
